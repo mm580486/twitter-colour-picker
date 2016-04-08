@@ -33,16 +33,17 @@ choice color on controller :
 ```
 views:
 ```html
-
 <select id='theme_color' style="display:none;">
+```
 ```ruby
 <% @colors.each do |color|%>
 ```
-<option value="<%= color %>"> ```ruby <%= color %> ```</option>
+```html
+<option value="<%= color %>"> ``` ```ruby <%= color %> ``` ```html </option> ```
 ```ruby <% end %> ```
-</select>
-```
+```html </select>
 
+```
 OR:
 ```ruby
  <%= form.select(:theme_color, options_for_select(@colors, selected: 'user selected'),{},{:class=>"...",:id=>'theme_color',:style=>'display:none;'}) %>
