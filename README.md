@@ -1,6 +1,6 @@
 # Twitter::Colour::Picker
 <p align="center">
-<img src="https://lh3.googleusercontent.com/-cT0tI6qB43M/VweT2VMAk2I/AAAAAAAAAbw/E1BBFI81KkMU2oAxRhcQSS8YoDh78eabwCCo/s288-Ic42/Screen%2BShot%2B1395-01-20%2Bat%2B15.17.26.png" width="240" height="180">
+<img src="https://lh3.googleusercontent.com/-cT0tI6qB43M/VweT2VMAk2I/AAAAAAAAAbw/E1BBFI81KkMU2oAxRhcQSS8YoDh78eabwCCo/s288-Ic42/Screen%2BShot%2B1395-01-20%2Bat%2B15.17.26.png" width="280" height="180">
 </p>
 ## Installation
 
