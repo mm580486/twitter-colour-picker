@@ -29,19 +29,16 @@ Or install it yourself as(local):
 
 choice color on controller :
 ```ruby
+#flat colors , source https://flatuicolors.com/
 @colors = ["3097d1","1abc9c", "2ecc71","3498db","9b59b6","34495e","f39c12","d35400","c0392b","bdc3c7","7f8c8d","f1c40f"]
 ```
 views:
 ```html
 <select id='theme_color' style="display:none;">
-```
-```ruby
 <% @colors.each do |color|%>
-```
-```html
-<option value="<%= color %>"> ``` ```ruby <%= color %> ``` ```html </option> ```
-```ruby <% end %> ```
-```html </select>
+<option value="<%= color %>"><%= color %></option>
+<% end %>
+</select>
 
 ```
 OR:
