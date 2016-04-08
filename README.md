@@ -19,14 +19,18 @@ Or install it yourself as(local):
     $ gem install twitter-colour-picker
 
 ## Usage
-css:
- *= require colour-picker
-js:
-//= require colour-picker
+
+
+| Format | Require |
+| --- | --- |
+| CSS |  *= require colour-picker |
+| JS | //= require colour-picker |
+
 
 choice color on controller :
+```ruby
 @colors = ["3097d1","1abc9c", "2ecc71","3498db","9b59b6","34495e","f39c12","d35400","c0392b","bdc3c7","7f8c8d","f1c40f"]
-
+```
 views:
 ```ruby
 <select id='theme_color' style="display:none;">
@@ -40,9 +44,9 @@ views:
 OR:
  <%= form.select(:theme_color, options_for_select(@colors, selected: 'user selected'),{},{:class=>"...",:id=>'theme_color',:style=>'display:none;'}) %>
 
+```
 
-
-
+```javascript
 <script>
 $(document).ready(function(e){
 $('#theme_color').colorpicker({
