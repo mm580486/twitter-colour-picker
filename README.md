@@ -4,20 +4,20 @@
 
 ## Installation
 
-1.Add gem ```ruby gem 'twitter-colour-picker' ``` to your Gemfile.
+1.Add gem 'twitter-colour-picker' to your Gemfile.
 
 ```ruby
 gem 'twitter-colour-picker'
 ```
 
 2.And then execute:
-
+```bash
     $ bundle install
-
+```
 Or install it yourself as(local):
-
+```bash
     $ gem install twitter-colour-picker
-
+```
 ## Usage
 
 
@@ -66,5 +66,3 @@ For reporting bug, contact me on [twitter](https://twitter.com/mm580486)
 ## License
 
 Copyright (c) 2015 [Mohammad Mahmoudi](https://twitter.com/mm580486).
-
-# twitter-color-picker
