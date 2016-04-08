@@ -32,6 +32,7 @@ choice color on controller :
 @colors = ["3097d1","1abc9c", "2ecc71","3498db","9b59b6","34495e","f39c12","d35400","c0392b","bdc3c7","7f8c8d","f1c40f"]
 ```
 views:
+```html
 ```ruby
 <select id='theme_color' style="display:none;">
 	
@@ -40,11 +41,13 @@ views:
 <option value="<%= color %>"><%= color %></option>
 <% end %>
 </select>
-
-OR:
- <%= form.select(:theme_color, options_for_select(@colors, selected: 'user selected'),{},{:class=>"...",:id=>'theme_color',:style=>'display:none;'}) %>
-
 ```
+```
+OR:
+```ruby
+ <%= form.select(:theme_color, options_for_select(@colors, selected: 'user selected'),{},{:class=>"...",:id=>'theme_color',:style=>'display:none;'}) %>
+```
+
 
 ```javascript
 <script>
