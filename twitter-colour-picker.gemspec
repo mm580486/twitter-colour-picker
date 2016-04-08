@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{choices colour picker like twitter}
   spec.description   = %q{choices colour picker like twitter}
-  spec.homepage      = "https://twitter.com/mm580486"
+  spec.homepage      = "https://github.com/mm580486/twitter-color-picker"
   spec.license       = "Mohammad Mahmoudi(@mm580486)"
   spec.add_dependency "jquery-rails"
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
