@@ -1,7 +1,7 @@
 # Twitter::Colour::Picker
-
-![alt tag](https://lh3.googleusercontent.com/-cT0tI6qB43M/VweT2VMAk2I/AAAAAAAAAbw/E1BBFI81KkMU2oAxRhcQSS8YoDh78eabwCCo/s144-Ic42/Screen%2BShot%2B1395-01-20%2Bat%2B15.17.26.png)
-
+<p align="center">
+![alt tag](https://lh3.googleusercontent.com/-cT0tI6qB43M/VweT2VMAk2I/AAAAAAAAAbw/E1BBFI81KkMU2oAxRhcQSS8YoDh78eabwCCo/s144-Ic42/Screen%2BShot%2B1395-01-20%2Bat%2B15.17.26.png = 250x250)
+</p>
 ## Installation
 
 1.Add gem 'twitter-colour-picker' to your Gemfile.
